@@ -1,0 +1,117 @@
+/*
+ * Style for index.html
+ * @Version 1-0-0
+ * @Author Julian Lamm
+ */
+
+/* COMPANY SECTION */
+#company {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: calc(100vh - var(--header-height));
+    max-width: var(--content-max-width);
+}
+
+#company .left-side {
+    max-width: 600px;
+    text-align: center;
+}
+
+#company .left-side img {
+    width: 100%;
+    height: auto;
+}
+
+#company .right-side {
+    padding: 10px;
+    text-align: center;
+}
+
+#company .right-side p {
+    text-shadow: 0px 2px 2px var(--text-color1);
+    font-weight: bold;
+    font-size: 50px;
+
+    margin-bottom: 30px;
+}
+
+#company .right-side p #span-code {
+    color: var(--turquoise);
+    font-style: italic;
+}
+
+#company .right-side p #span-future {
+    color: var(--light_blue);
+    font-style: italic;
+}
+
+#company .right-side .btn-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+#company .right-side .btn-area a {
+    padding: 10px 25px;
+    border-radius: 15px 50%;
+    box-shadow: 2px 2px 5px var(--text-color1);
+
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    color: var(--text-color1);
+
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#company .right-side .btn-area a:hover {
+    border-radius: 50% 15px;
+    letter-spacing: 0.1cap;
+    transition: 0.5s;
+}
+
+/* PROJECTS SECTION */
+#projects {
+    background-color: var(--base-color3);
+}
+
+#projects .content {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* SMALLER DEVICES */
+@media (max-width: 1250px) {
+    #company .left-side {
+        max-width: 420px;
+    }
+
+    #company .right-side p {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #company {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #company .right-side p {
+        font-size: 25px;
+    }
+
+    #company .right-side .btn-area {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

@@ -1,37 +1,42 @@
 /*
  * Style for all sites
- * @Version 1-0-0
+ * @Version 2-0-0
  * @Author Julian Lamm
  */
 
 :root {
-    --base-color1: hsl(0, 0%, 100%);
-    --base-color2: #efefef;
-    --base-color3: #d6d6d7;
-    --text-color1: #2f3557;
-    --text-color2: #4a5576;
-    --text-color3: #737da8;
+    --base-color1:             #ffffff;
+    --base-color2:             #efefef;
+    --base-color3:             #d6d6d7;
+    --base_color3-transparent: #d6d6d7f7;
+    --text-color1:             #2f3557;
+    --text-color2:             #4a5576;
+    --text-color3:             #737da8;
 
-    --blue: #4944B8;
-    --light_blue: #D5F4F9;
-    --green: #55EEAE;
-    --turquoise: #87F4E8;
+    --blue:       #4944B8;
+    --light_blue: #63b8c6;
+    --green:      #3fb885;
+    --turquoise:  #75dfd2;
 
-    --header-height: 80px;
+    --header-height:       80px;
     --header-height-small: 60px;
-    --sidenav-width: 150px;
-    --footer-height: 50px;
+    --content-max-width: 1700px;
+    --footer-height:       50px;
 }
 
 .darkmode {
-    --base-color1: #070b1d;
-    --base-color2: #101425;
-    --base-color3: #1a1f38;
-    --text-color1: #bfcefe;
-    --text-color2: #97a4ce;
-    --text-color3: #5b637c;
+    --base-color1:             #070b1d;
+    --base-color2:             #101425;
+    --base-color3:             #1a1f38;
+    --base_color3-transparent: #1a1f38f7;
+    --text-color1:             #bfcefe;
+    --text-color2:             #97a4ce;
+    --text-color3:             #5b637c;
 
-    --blue: #00A9E9;
+    --blue:       #00A9E9;
+    --light_blue: #D5F4F9;
+    --green:      #55EEAE;
+    --turquoise:  #87F4E8;
 }
 
 * {
@@ -92,7 +97,7 @@ header {
 }
 
 header .content {
-    max-width: 1700px;
+    max-width: var(--content-max-width);
     width: 100%;
 
     display: flex;
@@ -240,16 +245,6 @@ header .content .toggle_button span { /* three lines inside the button */
 /* CONTENT */
 #main {
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
-    max-width: 1700px;
-    margin: 0 auto;
-    padding: 20px 20px;
-    justify-content: center;
-    transition: 0.8s;
-}
-
-#main.blur {
-    filter: blur(2px);
-    transition: 0.8s;
 }
 
 /* FOOTER */
@@ -266,7 +261,7 @@ footer {
 }
 
 footer .content {
-    max-width: 1700px;
+    max-width: var(--content-max-width);
     width: 100%;
 
     display: flex;
@@ -324,30 +319,34 @@ footer .content .link:hover a {
 @media(max-width: 780px) {
     /* HEADER */
     header .content nav {
-        background: var(--base-color3);
-        box-shadow: 2px 0 4px rgba(0, 0, 0, 0.4);
-        
+        background: var(--base_color3-transparent);
         top: var(--header-height-small);
         left: 0;
-        width: var(--sidenav-width);
-        height: calc(100vh - var(--header-height-small) - var(--footer-height));
+        width: 100%;
+        height: 100%;
         position: absolute;
         z-index: 10;
-
-        transform: translateX(calc(-1 * var(--sidenav-width))); /* outside the viewport */
+        
+        transform: translateY(calc(-1 * 100% - var(--header-height-small))); /* outside the viewport */
         opacity: 0; /* invisible */
         visibility: hidden; /* no interaction with this element is possible */
-        transition: transform 0.8s ease, opacity 1.2s ease, visibility 1.2s ease;
+        transition: transform 0.8s ease, opacity 0.8s ease, visibility 1.2s ease;
     }
 
     header .content nav.active {
-        transform: translateX(0); /* inside the viewport */
+        transform: translateY(0); /* inside the viewport */
         opacity: 1;
         visibility: visible; /* interaction with this element is possible */
     }
 
     header .content nav ul {
         display: block;
+        width: min-content;
+        margin: 20px auto;
+    }
+
+    header .content nav ul li a {
+        font-size: 26px;
     }
 
     header .content #options {

@@ -1,8 +1,8 @@
 <!--
  * Index.html - The startpage
- * @Version 1-0-0
+ * @Version 1-1-0
  * @Author Julian Lamm
- -->
+-->
 
 <!DOCTYPE html>
 <html lang="de">
@@ -13,6 +13,7 @@
     <meta name="keywords"    content="Java, Software, Spiele, Download, CodeVantis, kostenlos">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/indexStyle.css">
 
     <script defer type="text/javascript" src="js/theme_switch.js"></script>
     <script defer type="text/javascript" src="js/language_select.js"></script>
@@ -67,12 +68,25 @@
 
     <!-- CONTENT -->
     <div id="main">
+        <!-- COMPANY PRESENTATION -->
         <section id="company">
-            
+            <div class="left-side"> 
+                <img src="rsc/logo_big.webP" alt="CodeVantis Logo">
+            </div>
+            <div class="right-side">
+                <p data-i18n="slogan">Meistere den <span id="span-code">Code</span> –<br> Erschaffe die <span id="span-future">Zukunft</span></p>
+                <div class="btn-area">
+                    <a id="discover_now_btn"  href="#projects"  data-i18n="discover_now">Jetzt entdecken</a>
+                    <a id="find_out_more_btn" href="about.html" data-i18n="find_out_more">Mehr erfahren</a>
+                </div>
+            </div>
         </section>
-    
+        
+        <!-- PROJECTS PRESENTATION -->
         <section id="projects">
-            
+            <div class="content">
+                <h1>Test</h1>
+            </div>
         </section>
     </div>
 

@@ -1,6 +1,6 @@
 /*
  * Sets and loads the languages
- * @Version 1-0-0
+ * @Version 1-0-1
  * @Author Julian Lamm
  */
 
@@ -33,7 +33,7 @@ function setLanguage(lang) {
 
     elements.forEach(el => {
         const key = el.getAttribute('data-i18n');
-        el.textContent = translations[lang][key];
+        el.innerHTML = translations[lang][key];
     });
     localStorage.setItem('language', lang);
 }

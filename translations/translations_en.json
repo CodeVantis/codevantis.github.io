@@ -2,6 +2,9 @@
     "en": {
         "navbar_overview": "Overview",
         "navbar_about": "About us",
-        "footer_imprint": "Imprint"
+        "footer_imprint": "Imprint",
+        "slogan": "Master the <span id='span-code'>Code</span> –<br> Create the <span id='span-future'>Future</span>",
+        "discover_now": "Discover now",
+        "find_out_more": "Find out more"
     }
 }
