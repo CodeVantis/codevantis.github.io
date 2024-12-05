@@ -1,0 +1,74 @@
+/*
+ * Style for the scroll animation
+ * @Version 1-0-0
+ * @Author Julian Lamm
+ */
+.reveal {
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+
+/* ANIMATION DEFINITIONS */
+.reveal.active.fade-bottom {
+  animation: fade-bottom 0.6s ease-in;
+}
+
+.reveal.active.fade-up {
+  animation: fade-up 0.6s ease-in;
+}
+
+.reveal.active.fade-left {
+  animation: fade-left 0.6s ease-in;
+}
+
+.reveal.active.fade-right {
+  animation: fade-right 0.6s ease-in;
+}
+
+/* ANIMATIONS */
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

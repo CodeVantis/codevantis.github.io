@@ -1,6 +1,6 @@
 <!--
  * Index.html - The startpage
- * @Version 1-1-0
+ * @Version 1-1-1
  * @Author Julian Lamm
 -->
 
@@ -13,11 +13,13 @@
     <meta name="keywords"    content="Java, Software, Spiele, Download, CodeVantis, kostenlos">
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/indexStyle.css">
+    <link rel="stylesheet" href="css/index_style.css">
+    <link rel="stylesheet" href="css/scroll_animations.css">
 
     <script defer type="text/javascript" src="js/theme_switch.js"></script>
     <script defer type="text/javascript" src="js/language_select.js"></script>
     <script defer type="text/javascript" src="js/hamburger_menu_action.js"></script>
+    <script defer type="text/javascript" src="js/scroll_animations.js"></script>
 
     <link href="rsc/logo.webP" rel="shortcut icon">
     <title>CodeVantis</title>
@@ -71,13 +73,13 @@
         <!-- COMPANY PRESENTATION -->
         <section id="company">
             <div class="left-side"> 
-                <img src="rsc/logo_big.webP" alt="CodeVantis Logo">
+                <img class="reveal fade-left" src="rsc/logo_big.webP" alt="CodeVantis Logo">
             </div>
             <div class="right-side">
-                <p data-i18n="slogan">Meistere den <span id="span-code">Code</span> –<br> Erschaffe die <span id="span-future">Zukunft</span></p>
+                <p class="reveal fade-right" data-i18n="slogan">Meistere den <span id="span-code">Code</span> –<br> Erschaffe die <span id="span-future">Zukunft</span></p>
                 <div class="btn-area">
-                    <a id="discover_now_btn"  href="#projects"  data-i18n="discover_now">Jetzt entdecken</a>
-                    <a id="find_out_more_btn" href="about.html" data-i18n="find_out_more">Mehr erfahren</a>
+                    <a class="reveal fade-bottom" id="discover_now_btn"  href="#projects"  data-i18n="discover_now">Jetzt entdecken</a>
+                    <a class="reveal fade-bottom" id="find_out_more_btn" href="about.html" data-i18n="find_out_more">Mehr erfahren</a>
                 </div>
             </div>
         </section>
