@@ -8,13 +8,13 @@
     --base-color1:             #ffffff;
     --base-color2:             #efefef;
     --base-color3:             #d6d6d7;
-    --base_color3-transparent: #d6d6d7f7;
+    --base-color3-transparent: #d6d6d7f7;
     --text-color1:             #2f3557;
     --text-color2:             #4a5576;
     --text-color3:             #737da8;
 
-    --blue:       #4944B8;
-    --light_blue: #63b8c6;
+    --blue:       #6a94f0;
+    --light-blue: #63b8c6;
     --green:      #3fb885;
     --turquoise:  #75dfd2;
 
@@ -28,15 +28,15 @@
     --base-color1:             #070b1d;
     --base-color2:             #101425;
     --base-color3:             #1a1f38;
-    --base_color3-transparent: #1a1f38f7;
+    --base-color3-transparent: #1a1f38f7;
     --text-color1:             #bfcefe;
     --text-color2:             #97a4ce;
     --text-color3:             #5b637c;
 
     --blue:       #00A9E9;
-    --light_blue: #D5F4F9;
+    --light-blue: #4fcde4;
     --green:      #55EEAE;
-    --turquoise:  #87F4E8;
+    --turquoise:  #a0e5ef;
 }
 
 * {
@@ -319,7 +319,7 @@ footer .content .link:hover a {
 @media(max-width: 780px) {
     /* HEADER */
     header .content nav {
-        background: var(--base_color3-transparent);
+        background: var(--base-color3-transparent);
         top: var(--header-height-small);
         left: 0;
         width: 100%;
