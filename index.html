@@ -14,13 +14,15 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index_style.css">
-    <link rel="stylesheet" href="css/card_layout.css">
+    <link rel="stylesheet" href="css/software_card.css">
     <link rel="stylesheet" href="css/scroll_animations.css">
+    <link rel="stylesheet" href="css/search_filter_fields.css">
 
     <script defer type="text/javascript" src="js/theme_switch.js"></script>
     <script defer type="text/javascript" src="js/language_select.js"></script>
     <script defer type="text/javascript" src="js/hamburger_menu_action.js"></script>
     <script defer type="text/javascript" src="js/scroll_animations.js"></script>
+    <script defer type="text/javascript" src="js/search_filter.js"></script>
     
     <link href="rsc/logo.webP" rel="shortcut icon">
     <title>CodeVantis</title>
@@ -88,9 +90,26 @@
         <!-- PROJECTS PRESENTATION -->
         <section id="projects">
             <div class="content">
-                
-                <div class="card" id="template">
-                    <img src="rsc/software/template.webP" alt="Template Screenshot">
+                <!-- SEARCH FIELD & CATEGORY FILTER -->
+                <div class="filters">
+                    <div id="categoryFilter">
+                        <button class="filter-option activated" id="all-filter"   data-i18n="filter-all"  >Alle Projekte</button>
+                        <button class="filter-option"           id="software-filter"                      >Software</button>
+                        <button class="filter-option"           id="games-filter" data-i18n="filter-games">Spiel</button>
+                    </div>
+
+                    <div id="search">
+                        <div class="icon"></div>
+		                <div class="input">
+                            <input id="search-input" type="text" autocomplete="off" maxlength="12">
+                        </div>
+                        <span class="clear"></span>
+                    </div>
+                </div>
+
+                <!-- SOFTWARE CARDS -->
+                <div class="card">
+                    <img src="rsc/software/template.webP" alt="Template Screenshot" loading="lazy">
 					
                     <div class="header">
                         <div class="logo">
@@ -101,8 +120,8 @@
                                 <p>Template</p>
                             </div>
                             <div class="badges">
-                                <span class="badge">X.X.X</span>
-                                <span class="badge">Software</span>
+                                <span class="badge version">X.X.X</span>
+                                <span class="badge category">Software</span>
                             </div>
                         </div>
                     </div>
@@ -115,8 +134,8 @@
                     </div>
                 </div>
 
-                <div class="card" id="test">
-                    <img src="rsc/software/template.webP" alt="Template Screenshot">
+                <div class="card">
+                    <img src="rsc/software/template.webP" alt="Template Screenshot" loading="lazy">
 					
                     <div class="header">
                         <div class="logo">
@@ -127,8 +146,8 @@
                                 <p>Template</p>
                             </div>
                             <div class="badges">
-                                <span class="badge">X.X.X</span>
-                                <span class="badge">Software</span>
+                                <span class="badge version">X.X.X</span>
+                                <span class="badge category" data-i18n="filter-games">Spiel</span>
                             </div>
                         </div>
                     </div>
@@ -141,8 +160,8 @@
                     </div>
                 </div>
 
-                <div class="card" id="software test">
-                    <img src="rsc/software/template.webP" alt="Template Screenshot">
+                <div class="card">
+                    <img src="rsc/software/template.webP" alt="Template Screenshot" loading="lazy">
 					
                     <div class="header">
                         <div class="logo">
@@ -153,8 +172,8 @@
                                 <p>Template</p>
                             </div>
                             <div class="badges">
-                                <span class="badge">X.X.X</span>
-                                <span class="badge">Software</span>
+                                <span class="badge version">X.X.X</span>
+                                <span class="badge category">Software</span>
                             </div>
                         </div>
                     </div>

@@ -5,6 +5,8 @@
         "footer_imprint": "Impressum",
         "slogan": "Meistere den <span id='span-code'>Code</span> –<br> Erschaffe die <span id='span-future'>Zukunft</span>",
         "discover_now": "Jetzt entdecken",
-        "find_out_more": "Mehr erfahren"
+        "find_out_more": "Mehr erfahren",
+        "filter-all": "Alle Projekte",
+        "filter-games": "Spiel"
     }
 }

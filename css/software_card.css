@@ -1,3 +1,9 @@
+/*
+ * Style for a Software card
+ * @Version 1-0-0
+ * @Author Julian Lamm
+ */
+
 .card {
     max-width: 380px;
     min-width: 280px;
