@@ -1,200 +1,176 @@
 /*
  * Style for search and filter fields
- * @Version 1-0-0
+ * @Version 2-0-0
  * @Author Julian Lamm
  */
 .filters {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 20px;
 }
 
 /* CATEGORY FILTER */
 #categoryFilter {
-    display: flex;
-    margin-right: 20px;
-    margin-bottom: 20px;
-	width: 420px;
-    height: 50px;
+  display: flex;
+  height: 50px;
+  width: 320px;
 
-    border-radius: 15px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 }
 
 #categoryFilter .filter-option {
-    height: 100%;
-    width: 100%;
-    padding: 0 10px;
+  padding: 0 10px;
+  width: 100%;
 
-    background-color: var(--base-color3);
-    border: 3px solid var(--text-color3);
-    border-right: none;
-    color: var(--text-color1);
-    font-size: 20px;
-    
-    cursor: pointer;
-    transition: 0.8s;
+  background-color: var(--base-color3);
+  border: 2px solid var(--text-color3);
+  border-right: none;
+
+  color: var(--text-color1);
+  font-size: 18px;
+
+  cursor: pointer;
+  transition: 0.6s;
 }
 
 #categoryFilter .filter-option:first-child {
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 #categoryFilter .filter-option:last-child {
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-right: 3px solid var(--text-color3);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-right: 2px solid var(--text-color3);
 }
 
 #categoryFilter .filter-option:hover {
-    color: var(--text-color3);
-    transition: 0.8s;
+  color: var(--text-color3);
 }
 
 #categoryFilter .filter-option.activated {
-    background-color: var(--base-color1);
+  background-color: var(--base-color1);
 }
 
 /* SEARCH */
 #search {
-    overflow: hidden;
-    position: relative;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  position: relative;
 
-    width: 50px;
-    height: 50px;
-
-    border-radius: 50px;
-    border: 2px solid var(--text-color3);
-    background-color: var(--base-color3);
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    transition: 0.5s;
+  border-radius: 50px;
+  border: 2px solid var(--text-color3);
+  background-color: var(--base-color3);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transition: 0.6s;
 }
 
 #search.active { /* opened */
-    width: 320px;
+  width: 320px;
 }
 
 #search .icon { /* magnifying glass */
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    width: 50px;
-    height: 50px;
-
-    cursor: pointer;
+  width: 50px;
+  height: 50px;
+  
+  cursor: pointer;
 }
 
 #search .icon::before { /* magnifying glass - circle */
-    content: '';
-    position: absolute;
-    transform: translate(-7px, -7px);
+  content: '';
+  position: absolute;
+  transform: translate(-5px, -5px);
+  width: 15px;
+  height: 15px;
 
-    width: 15px;
-    height: 15px;
-
-    border-radius: 50%;
-    border: 4px solid var(--text-color2);
-    transition: 0.8s;
+  border-radius: 50%;
+  border: 3px solid var(--text-color2);
+  transition: 0.8s;
 }
 
 #search .icon:hover::before {
-    border-color: var(--text-color3);
-    transition: 0.8s;
+  border-color: var(--text-color3);
 }
 
 #search .icon::after { /* magnifying glass - stroke */
-    content: '';
-    position: absolute;
-    transform: translate(6px, 6px) rotate(315deg);
+  content: '';
+  position: absolute;
+  transform: translate(6px, 6px) rotate(315deg);
+  width: 3px;
+  height: 15px;
 
-    width: 5px;
-    height: 17px;
-
-    background: var(--text-color2);
-    transition: 0.8s;
+  background: var(--text-color2);
+  transition: 0.8s;
 }
 
 #search .icon:hover::after {
-    background: var(--text-color3);
-    transition: 0.8s;
+  background: var(--text-color3);
 }
 
-#search .input { /* input text field */
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    left: 50px;
+#search .input { /* input field */
+  position: relative;
 
-    width: 250px;
-    height: 50px;
+  left: 50px;
+  width: calc(320px - 50px - 50px); /* total width - icon-width - clear-width */
+  height: 100%;
 }
 
 #search .input input {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    border: none;
-    background: transparent;
-    color: var(--text-color3);
-    font-size: 20px;
+  border: none;
+  background: transparent;
+  color: var(--text-color3);
+  font-size: 20px;
 }
 
 #search.active .clear { /* clear input field */
-    display: flex;
+  display: flex;
 }
 
 #search .clear {
-    position: absolute;
-	right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    display: none;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
 
-    width: 20px;
-    height: 20px;
+  width: 50px;
+  height: 50px;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #search .clear::before,
 #search .clear::after {
-    content: '';
-    position: absolute;
-    transform: rotate(45deg);
+  content: '';
+  position: absolute;
+  transform: rotate(45deg);
 
-    width: 4px;
-    height: 25px;
+  width: 2px;
+  height: 28px;
 
-    background-color: var(--text-color2);
-    transition: 0.8s;
+  background-color: var(--text-color2);
+  transition: 0.8s;
 }
 
 #search .clear::after {
-    transform: rotate(315deg);
+  transform: rotate(315deg);
 }
 
 #search .clear:hover::before,
 #search .clear:hover::after {
-    background-color: var(--text-color3);
-    transition: 0.8s;
-}
-
-/* SMALLER DEVICES */
-@media(max-width: 380px) {
-    #categoryFilter .filter-option {
-        font-size: 18px;
-    }
-
-    #search .input input {
-        font-size: 16px;
-    }
+  background-color: var(--text-color3);
 }

@@ -1,119 +1,111 @@
 /*
  * Style for index.html
- * @Version 1-0-0
+ * @Version 2-0-0
  * @Author Julian Lamm
  */
-
 /* COMPANY SECTION */
 #company {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    padding: 20px;
-    min-height: calc(100vh - var(--header-height));
-    max-width: var(--content-max-width);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 30px;
+  max-width: var(--content-max-width);
+  min-height: calc(100vh - var(--header-height));
 }
 
 #company .left-side {
-    max-width: 600px;
-    text-align: center;
+  max-width: 600px;
+  margin-right: 30px;
 }
 
 #company .left-side img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 #company .right-side {
-    padding: 10px;
-    text-align: center;
+  text-align: center;
 }
 
 #company .right-side p {
-    font-weight: bold;
-    font-size: 50px;
+  font-weight: bold;
+  font-size: 50px;
 
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 #company .right-side p #span-code {
-    text-shadow: 0px 2px 2px var(--text-color1);
-    color: var(--light-blue);
-    font-style: italic;
+  text-shadow: 0px 2px 2px var(--text-color1);
+  color: var(--light-blue);
+  font-style: italic;
 }
 
 #company .right-side p #span-future {
-    text-shadow: 0px 2px 2px var(--text-color1);
-    color: var(--green);
-    font-style: italic;
+  text-shadow: 0px 2px 2px var(--text-color1);
+  color: var(--green);
+  font-style: italic;
 }
 
 #company .right-side .btn-area {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
 }
 
 #company .right-side .btn-area a {
-    padding: 10px 25px;
-    border-radius: 15px 50%;
-    box-shadow: 2px 2px 5px var(--text-color1);
+  padding: 10px 25px;
+  border-radius: 15px 50%;
+  box-shadow: 2px 2px 5px var(--text-color1);
+  
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+  color: var(--text-color1);
 
-    font-weight: bold;
-    font-style: normal;
-    font-size: 18px;
-    color: var(--text-color1);
-
-    cursor: pointer;
-    transition: 0.5s;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 #company .right-side .btn-area a:hover {
-    border-radius: 50% 15px;
-    letter-spacing: 0.1cap;
-    transition: 0.5s;
+  border-radius: 50% 15px;
 }
 
 /* PROJECTS SECTION */
 #projects {
-    background-color: var(--base-color3);
+  background-color: var(--base-color3);
+  min-height: 100vh;
 }
 
 #projects .content {
-    min-height: 100vh;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
+  max-width: var(--content-max-width);
+  text-align: center;
+  padding: 30px 10px;
+  margin: 0 auto;
 }
 
 /* SMALLER DEVICES */
-@media (max-width: 1250px) {
-    #company .left-side {
-        max-width: 420px;
-    }
-
-    #company .right-side p {
-        font-size: 40px;
-    }
+@media(max-width: 850px) {
+  #company {
+    min-height: calc(100vh - var(--header-height-small));
+  }
 }
 
-@media (max-width: 1000px) {
-    #company {
-        flex-direction: column;
-        justify-content: center;
-    }
-}
+@media (max-width: 680px) {
+  #company {
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+  }
 
-@media (max-width: 480px) {
-    #company .right-side p {
-        font-size: 25px;
-    }
+  #company .left-side {
+    margin: 0;
+    margin-bottom: 40px;
+  }
 
-    #company .right-side .btn-area {
-        flex-direction: column;
-        gap: 30px;
-    }
+  #company .right-side p {
+    font-size: 35px;
+  }
 }

@@ -1,12 +1,13 @@
 {
-    "en": {
-        "navbar_overview": "Overview",
-        "navbar_about": "About us",
-        "footer_imprint": "Imprint",
-        "slogan": "Master the <span id='span-code'>Code</span> –<br> Create the <span id='span-future'>Future</span>",
-        "discover_now": "Discover now",
-        "find_out_more": "Find out more",
-        "filter-all": "All projects",
-        "filter-games": "Game"
-    }
+  "en": {
+    "nav.overview": "Overview",
+    "nav.about": "About us",
+    "footer.imprint": "Imprint",
+    "index.company.slogan": "Master the <span id='span-code'>Code</span> –<br> Create the <span id='span-future'>Future</span>",
+    "index.company.discoverNow": "Discover now",
+    "index.company.findOutMore": "Find out more",
+    "index.projects.categoryFilter.all": "All projects",
+    "index.projects.categoryFilter.games": "Games",
+    "index.projects.card.categoryBadge": "Game"
+  }
 }
