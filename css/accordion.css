@@ -1,0 +1,94 @@
+/*
+ * Style of an accordion
+ * @Version 1-0-0
+ * @Author Julian Lamm
+ */
+/* ACCORDION */
+details {
+  position: relative;
+  margin-bottom: 35px;
+  padding: 0 15px;
+
+  background: var(--base-color3);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+details::before { /* line on the left side of the accordion */
+  content: '';
+  position: absolute;
+  left: 0;
+
+  width: 5px;
+  height: 100%;
+  
+  background-color: var(--blue);
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* ACCORDION - TITLE */
+details summary {
+  list-style-type: none; /* remove standard arrow */
+  
+  font-size: 18px;
+  font-weight: bold;
+  word-wrap: break-word;
+  color: var(--text-color2);
+
+  padding: 8px 0;
+  margin-left: 30px;
+
+  cursor: pointer;
+}
+
+/* ACCORDION - ARROW */
+details summary::after {
+  content: '';
+  position: absolute;
+  left: 10px;
+
+  background-image: url('../rsc/arrow.webP');
+  background-size: contain;
+  
+  height: 25px;
+  width: 25px;
+  
+  transition: 0.5s;
+}
+
+details[open] summary::after { /* rotate arrow if item opened */
+  transform: rotate(90deg);
+}
+
+/* ACCORDION - CONTENT */
+details .content {
+  padding-bottom: 5px;
+}
+
+details .content hr {
+  margin: 6px 0;
+}
+
+details .content a {
+  display: block;
+  margin-bottom: 5px;
+  width: fit-content;
+
+  font-style: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+
+  transition: 0.5s;
+}
+
+details .content a:hover {
+  text-decoration: underline;
+  letter-spacing: 0.1px;
+  color: var(--blue);
+}

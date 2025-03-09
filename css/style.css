@@ -245,6 +245,12 @@ main {
   min-height: calc(100vh - var(--header-height) - var(--footer-height));
 }
 
+main .content {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 20px;
+}
+
 /* FOOTER */
 footer {
   background-color: var(--base-color2);

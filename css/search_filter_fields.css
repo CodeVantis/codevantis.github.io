@@ -52,7 +52,8 @@
 }
 
 #categoryFilter .filter-option.activated {
-  background-color: var(--base-color1);
+  background-color: var(--light-blue);
+  color: black;
 }
 
 /* SEARCH */
@@ -130,7 +131,7 @@
 
   border: none;
   background: transparent;
-  color: var(--text-color3);
+  color: var(--text-color2);
   font-size: 20px;
 }
 
