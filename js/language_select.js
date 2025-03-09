@@ -40,7 +40,7 @@ function setLanguage(lang) {
 // website is loaded
 document.addEventListener('DOMContentLoaded', () => {
   const defaultLanguage = navigator.language.startsWith('de') ? 'de' : 'en' // determine Browser language
-  const savedLanguage  = localStorage.getItem('language') || defaultLanguage
+  const savedLanguage   = localStorage.getItem('language') || defaultLanguage
 
   loadTranslations(savedLanguage)
   languageSelect.value = savedLanguage
