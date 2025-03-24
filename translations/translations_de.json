@@ -22,8 +22,8 @@
     "imprint.downloadImprint": "Impressum",
     "imprint.downloadEULA": "Endbenutzer-Lizenzvereinbarung",
     "about.title": "Über CodeVantis",
-    "about.me": "Ich bin Julian, ein 23-jähriger dualer Student der Wirtschaftsinformatik aus Deutschland und leidenschaftlicher Entwickler. Als Fullstack-Entwickler arbeite ich beruflich an verschiedenen Projekten, mit verschiedenen Frameworks, Bibliotheken und Programmiersprachen, doch in meiner Freizeit entwickle ich <b>eigene Spiele und Programme mit Java</b>.",
-    "about.target": "Mein Ziel mit <b>CodeVantis</b> ist es, meinen Spaß an der Programmierung, meine Fortschritte und meine Projekte mit euch zu teilen. Deshalb stelle ich auf dieser Website alle meine Programme und Spiele <b>kostenlos zum Download</b> bereit. Hier erfahrt ihr alles über <b>abgeschlossene, aktuelle und auch zukünftige Projekte</b>.",
-    "about.socialMedia": "Auf <b>Instagram und YouTube</b> gebe ich exklusive Einblicke in die Entwicklung meiner Projekte. Schaut vorbei und bleibt auf dem Laufenden!"
+    "about.me": "<p>Ich bin Julian, ein 23-jähriger dualer Student der Wirtschaftsinformatik aus Deutschland und leidenschaftlicher Entwickler. Als Fullstack-Entwickler arbeite ich beruflich an verschiedenen Projekten, mit verschiedenen Frameworks, Bibliotheken und Programmiersprachen, doch in meiner Freizeit entwickle ich <b>eigene Spiele und Programme mit Java</b>.</p>",
+    "about.target": "<p>Mein Ziel mit <b>CodeVantis</b> ist es, meinen Spaß an der Programmierung, meine Fortschritte und meine Projekte mit euch zu teilen. Deshalb stelle ich auf dieser Website alle meine Programme und Spiele <b>kostenlos zum Download</b> bereit. Hier erfahrt ihr alles über <b>abgeschlossene, aktuelle und auch zukünftige Projekte</b>.</p>",
+    "about.socialMedia": "<p>Auf <b>Instagram und YouTube</b> gebe ich exklusive Einblicke in die Entwicklung meiner Projekte. Schaut vorbei und bleibt auf dem Laufenden!</p>"
   }
 }
