@@ -20,6 +20,10 @@
     "imprint.crossPlatformApplicability": "<h2>Cross-Platform Applicability</h2><p>This legal notice also applies to the YouTube presence, Instagram presence, and all apps, programs, and games created by Julian Lamm.</p>",
     "imprint.lastUpdate": "Imprint last updated on ",
     "imprint.downloadImprint": "imprint",
-    "imprint.downloadEULA": "end-user license agreement"
+    "imprint.downloadEULA": "end-user license agreement",
+    "about.title": "About CodeVantis",
+    "about.me": "I'm Julian, a 23-year-old dual student of business informatics from Germany and a passionate developer. As a fullstack developer, I work professionally on various projects, with different frameworks, libraries and programming languages, but in my free time I develop my <b>own games and programs with Java</b>.",
+    "about.target": "My goal with <b>CodeVantis</b> is to share my enjoyment of programming, my progress and my projects with you. That's why I make all my programs and games <b>available for free download</b> on this website. Here you can find out everything about <b>completed, current and future projects</b>.",
+    "about.socialMedia": "I give exclusive insights into the development of my projects on <b>Instagram and YouTube</b>. Take a look and stay up to date!"
   }
 }
