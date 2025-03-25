@@ -1,6 +1,6 @@
 /*
  * Style for all sites
- * @Version 3-0-0
+ * @Version 3-0-1
  * @Author Julian Lamm
  */
 :root {
@@ -313,8 +313,8 @@ footer .content .link:hover a {
   header .content nav { /* navigation bar outsourced to the left side */
     left: 0;
     position: fixed;
-    top: calc(var(--header-height-small) + 20px);
-    height: calc(100vh - var(--header-height-small) - 40px);
+    top: calc(50% - 30vh);
+    height: 60vh;
     width: min-content;
     padding: 10px;
 
