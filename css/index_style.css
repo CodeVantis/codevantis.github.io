@@ -1,6 +1,6 @@
 /*
  * Style for index.html
- * @Version 2-0-0
+ * @Version 2-1-0
  * @Author Julian Lamm
  */
 /* COMPANY SECTION */
@@ -87,12 +87,6 @@
 }
 
 /* SMALLER DEVICES */
-@media(max-width: 850px) {
-  #company {
-    min-height: calc(100vh - var(--header-height-small));
-  }
-}
-
 @media (max-width: 680px) {
   #company {
     flex-direction: column;

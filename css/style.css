@@ -1,6 +1,6 @@
 /*
  * Style for all sites
- * @Version 3-1-0
+ * @Version 3-2-0
  * @Author Julian Lamm
  */
 :root {
@@ -16,8 +16,7 @@
   --green:       #3fb885;
 
   --content-max-width: 1920px;
-  --header-height:       70px;
-  --header-height-small: 60px;
+  --header-height:       60px;
   --footer-height:       50px;
 }
 
@@ -106,7 +105,7 @@ header .content {
 
 /* HEADER - LOGO */
 header .content a img {
-  width: 210px;
+  width: 250px;
   height: auto;
   margin-top: 3px;
 }
@@ -302,16 +301,12 @@ footer .content .link:hover a {
 /* SMALLER DEVICES */
 @media(max-width: 850px) {
   /* HEADER */
-  header {
-    height: var(--header-height-small);
-  }
-
   header .content {
     justify-content: space-between;
   }
 
   header .content a img {
-    width: 155px;
+    width: 180px;
   }
 
   header .content nav { /* navigation bar outsourced to the left side */
@@ -345,11 +340,6 @@ footer .content .link:hover a {
   header .content #nav-toggle-button-label {
     display: flex; /* nav-toggle-button is visible */
   }
-
-  /* CONTENT */
-  main {
-    min-height: calc(100vh - var(--header-height-small) - var(--footer-height));
-  }
 }
 
 @media(max-width: 400px) {
@@ -363,6 +353,10 @@ footer .content .link:hover a {
   }
 
   /* HEADER */
+  header .content a img {
+    width: 155px;
+  }
+
   header .content #options {
     flex-direction: column;
     align-items: center;
