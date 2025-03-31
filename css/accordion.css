@@ -1,6 +1,6 @@
 /*
  * Style of an accordion
- * @Version 1-0-1
+ * @Version 1-0-2
  * @Author Julian Lamm
  */
 /* ACCORDION */
@@ -81,7 +81,6 @@ details .content a {
   margin-bottom: 5px;
   width: fit-content;
 
-  font-style: normal;
   word-wrap: break-word;
   word-break: break-all;
 
