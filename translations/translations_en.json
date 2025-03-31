@@ -9,6 +9,7 @@
     "index.projects.categoryFilter.all": "All projects",
     "index.projects.categoryFilter.games": "Games",
     "index.projects.card.categoryBadge": "Game",
+    "credits.logo": "The <b>Gyrotrope Font</b> is used in the logo.",
     "imprint.title": "Imprint",
     "imprint.personalInfo": "<h2>Legal Notice According to § 5 TMG</h2><p><b>Owner</b>: Julian Lamm<br><b>Address</b>: Pöppelmannstraße 1<br><b>Postal Code</b>: 33739 Bielefeld (Germany)<br><b>Email</b>: <a class='link' href='mailto:codevantis.contact@gmail.com'>codevantis.contact@gmail.com</a><br><b>Person Responsible for Content According to § 55 (2) RStV</b>: Julian Lamm</p>",
     "imprint.copyrightNotice": "<h2>Copyright Notice</h2><p>All content on this website (images, photos, texts, videos) is subject to copyright protection under the laws of the Federal Republic of Germany. Please contact the operator of this website before distributing, reproducing, or utilizing any content from this site. Downloads and copies of this website are only permitted for private, non-commercial use.<br><br>If you find any content on this website that violates copyright law, please contact the operator of this website immediately.</p>",
@@ -23,7 +24,12 @@
     "imprint.downloadEULA": "end-user license agreement",
     "about.title": "About CodeVantis",
     "about.me": "<p>I'm Julian, a 23-year-old dual student of business informatics from Germany and a passionate developer. As a fullstack developer, I work professionally on various projects, with different frameworks, libraries and programming languages, but in my free time I develop my <b>own games and programs with Java</b>.</p>",
+    "about.codevantis": "<p><b>CodeVantis</b> is made up of the words <b>Code</b> and <b>Vantis</b>.<br><b>Code</b> stands for programming, the basis of the digital world. It represents the knowledge and skills that the company imparts.<br><b>Vantis</b> is inspired by the Latin word 'advansus', which means progress or advancement.<br><b>Together</b>, 'CodeVantis' symbolizes progress through programming - the idea that learning and applying code creates new possibilities and innovations.</p>",
     "about.target": "<p>My goal with <b>CodeVantis</b> is to share my enjoyment of programming, my progress and my projects with you. That's why I make all my programs and games <b>available for free download</b> on this website. Here you can find out everything about <b>completed, current and future projects</b>.</p>",
-    "about.socialMedia": "<p>I give exclusive insights into the development of my projects on <b>Instagram and YouTube</b>. Take a look and stay up to date!</p>"
+    "about.socialMedia": "<p>I give exclusive insights into the development of my projects on <b>Instagram and YouTube</b>. Take a look and stay up to date!<br>If you have any ideas, comments or similar, please feel free to contact me at <a class='link' href='mailto:codevantis.contact@gmail.com'>codevantis.contact@gmail.com</a>.</p>",
+    "blog.countdown.day": "Days",
+    "blog.countdown.hour": "Hours",
+    "blog.countdown.minute": "Minutes",
+    "blog.countdown.second": "Seconds"
   }
 }

@@ -9,6 +9,7 @@
     "index.projects.categoryFilter.all": "Alle Projekte",
     "index.projects.categoryFilter.games": "Spiele",
     "index.projects.card.categoryBadge": "Spiel",
+    "credits.logo": "In dem Logo wird die <b>Gyrotrope Schriftart</b> verwendet.",
     "imprint.title": "Impressum",
     "imprint.personalInfo": "<h2>Angaben gemäß § 5 TMG.</h2><p><b>Inhaber</b>: Julian Lamm<br><b>Adresse</b>: Pöppelmannstraße 1<br><b>Postleitzahl</b>: 33739 Bielefeld (Deutschland)<br><b>E-Mail</b>: <a class='link' href='mailto:codevantis.contact@gmail.com'>codevantis.contact@gmail.com</a><br><b>Inhaltlich Verantwortlicher gem. § 55 Absatz 2 RStV</b>: Julian Lamm</p>",
     "imprint.copyrightNotice": "<h2>Urheberrechtshinweis</h2><p>Alle Inhalte dieser Website (Bilder, Fotos, Texte, Videos) unterliegen dem Urheberrecht der Bundesrepublik Deutschland. Bitte wenden Sie sich an den Betreiber dieser Website, bevor Sie die Inhalte dieser Website verbreiten, vervielfältigen oder verwerten. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.<br><br>Sollten Sie auf dieser Website Inhalte finden, die gegen das Urheberrecht verstoßen, wenden Sie sich bitte umgehend an den Betreiber dieser Website.</p>",
@@ -23,7 +24,12 @@
     "imprint.downloadEULA": "Endbenutzer-Lizenzvereinbarung",
     "about.title": "Über CodeVantis",
     "about.me": "<p>Ich bin Julian, ein 23-jähriger dualer Student der Wirtschaftsinformatik aus Deutschland und leidenschaftlicher Entwickler. Als Fullstack-Entwickler arbeite ich beruflich an verschiedenen Projekten, mit verschiedenen Frameworks, Bibliotheken und Programmiersprachen, doch in meiner Freizeit entwickle ich <b>eigene Spiele und Programme mit Java</b>.</p>",
+    "about.codevantis": "<p><b>CodeVantis</b> setzt sich aus den Wörtern <b>Code</b> und <b>Vantis</b> zusammen.<br><b>Code</b> steht für das Programmieren, die Basis der digitalen Welt. Es repräsentiert das Wissen und die Fähigkeiten, die das Unternehmen vermittelt.<br><b>Vantis</b> ist inspiriert von dem lateinischen Wort 'advansus', was Fortschritt oder Vorankommen bedeutet.<br><b>Zusammen</b> symbolisiert 'CodeVantis' den Fortschritt durch die Programmierung – die Idee, dass durch das Erlernen und Anwenden von Code neue Möglichkeiten und Innovationen entstehen.</p>",
     "about.target": "<p>Mein Ziel mit <b>CodeVantis</b> ist es, meinen Spaß an der Programmierung, meine Fortschritte und meine Projekte mit euch zu teilen. Deshalb stelle ich auf dieser Website alle meine Programme und Spiele <b>kostenlos zum Download</b> bereit. Hier erfahrt ihr alles über <b>abgeschlossene, aktuelle und auch zukünftige Projekte</b>.</p>",
-    "about.socialMedia": "<p>Auf <b>Instagram und YouTube</b> gebe ich exklusive Einblicke in die Entwicklung meiner Projekte. Schaut vorbei und bleibt auf dem Laufenden!</p>"
+    "about.socialMedia": "<p>Auf <b>Instagram und YouTube</b> gebe ich exklusive Einblicke in die Entwicklung meiner Projekte. Schaut vorbei und bleibt auf dem Laufenden!<br>Wenn ihr Ideen, Anmerkungen oder ähnliches habt, könnt ihr mich gerne unter <a class='link' href='mailto:codevantis.contact@gmail.com'>codevantis.contact@gmail.com</a> kontaktieren.</p>",
+    "blog.countdown.day": "Tage",
+    "blog.countdown.hour": "Stunden",
+    "blog.countdown.minute": "Minuten",
+    "blog.countdown.second": "Sekunden"
   }
 }
