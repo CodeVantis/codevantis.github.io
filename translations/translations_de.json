@@ -30,6 +30,9 @@
     "blog.countdown.day": "Tage",
     "blog.countdown.hour": "Stunden",
     "blog.countdown.minute": "Minuten",
-    "blog.countdown.second": "Sekunden"
+    "blog.countdown.second": "Sekunden",
+    "blog.countdown.title": "Fertigstellung der Website",
+    "blog.countdown.subtitle": "Die letzten Implementierungen!",
+    "blog.countdown.description": "<p>Die <b>letzten Pages</b> werden erstellt, getestet und weitere Anpassungen werden vorgenommen.</p>"
   }
 }

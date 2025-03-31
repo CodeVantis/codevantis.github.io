@@ -1,0 +1,90 @@
+/*
+ * Style for the blog-page
+ * @Version 1-0-0
+ * @Author Julian Lamm
+ */
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+article.full-width {
+  grid-column: span 2;
+}
+
+article.half-width {
+  grid-column: span 1;
+}
+
+article {
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  background-color: var(--base-color2);
+
+  padding: 10px;
+}
+
+article .logo {
+  width: 70px;
+  height: 70px;
+}
+
+article .image {
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  max-height: 197px;
+  margin-bottom: 10px;
+  
+  border-radius: 10px;
+  box-shadow: 4px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+article h2 {
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+article.flex {
+  display: flex;
+  gap: 15px;
+}
+
+article.flex .image {
+  margin-bottom: 0px;
+}
+
+/* SMALLER DEVICES */
+@media(max-width: 1450px) {
+  article.half-width.flex {
+    display: block; /* text is now below the image / logo of a half-width-article */
+  }
+  
+  article.half-width.flex .image {
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width: 900px) {
+  .content {
+    display: block; /* all articles are below each other */
+    gap: 0;
+  }
+
+  article {
+    margin-bottom: 20px;
+  }
+
+  article:last-child {
+    margin-bottom: 0px;
+  }
+
+  article.full-width.flex {
+    display: block; /* text is now below the image / logo of a full-width-article */
+  }
+  
+  article.full-width.flex .image {
+    margin-bottom: 10px;
+  }
+}

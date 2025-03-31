@@ -1,0 +1,104 @@
+/*
+ * Style for the coming soon countdown on the blog-page
+ * @Version 1-0-0
+ * @Author Julian Lamm
+ */
+.countdown {
+  align-items: center;
+}
+
+.countdown img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+/* TITLE */
+.countdown .blog-content h1 {
+  text-transform: uppercase;
+  word-wrap: break-word;
+  font-size: 40px;
+}
+
+/* SUBTITLE */
+.countdown .blog-content h2 {
+  text-transform: uppercase;
+  word-wrap: break-word;
+  font-size: 30px;
+}
+
+/* BOXES */
+.countdown .blog-content .timer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.countdown .blog-content .timer .above, 
+.countdown .blog-content .timer .below {
+  display: flex;
+}
+
+/* BOX */
+.countdown .blog-content .timer .time {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 10px 10px 0;
+  padding: 5px;
+
+  width: 110px;
+  height: 105px;
+
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px var(--text-color3) inset;
+  border: 3px solid var(--text-color3);
+
+  font-weight: bold;
+}
+
+/* BOX LABEL */
+.countdown .blog-content .timer .time span {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text-color2);
+}
+
+/* TIME */
+.countdown .blog-content .timer .time p {
+  padding: 5px 0;
+  
+  font-size: 35px;
+  color: var(--light-blue);
+}
+
+/* SMALLER DEVICES */
+@media(max-width: 920px) {
+  .countdown img {
+    width: 220px;
+    height: auto;
+  }
+
+  .countdown .blog-content h1 {
+    font-size: 30px;
+  }
+  
+  .countdown .blog-content h2 {
+    font-size: 22px;
+  }
+}
+
+@media(max-width: 450px) {
+  .countdown img {
+    width: 150px;
+    height: auto;
+  }
+
+  .countdown .blog-content h1 {
+    font-size: 25px;
+  }
+  
+  .countdown .blog-content h2 {
+    font-size: 18px;
+  }
+}
