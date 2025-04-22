@@ -33,6 +33,9 @@
     "blog.countdown.second": "Seconds",
     "blog.countdown.title": "Completion of the website",
     "blog.countdown.subtitle": "The last implementations!",
-    "blog.countdown.description": "<p>The <b>last pages</b> are created, tested and further adjustments are made.</p>"
+    "blog.countdown.description": "<p>The <b>last pages</b> are created, tested and further adjustments are made.</p>",
+    "software.download": "Download now",
+    "software.picture.free": "Completely free",
+    "software.picture.windows": "Windows only"
   }
 }

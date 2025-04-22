@@ -33,6 +33,9 @@
     "blog.countdown.second": "Sekunden",
     "blog.countdown.title": "Fertigstellung der Website",
     "blog.countdown.subtitle": "Die letzten Implementierungen!",
-    "blog.countdown.description": "<p>Die <b>letzten Pages</b> werden erstellt, getestet und weitere Anpassungen werden vorgenommen.</p>"
+    "blog.countdown.description": "<p>Die <b>letzten Pages</b> werden erstellt, getestet und weitere Anpassungen werden vorgenommen.</p>",
+    "software.download": "Jetzt herunterladen",
+    "software.picture.free": "Komplett kostenlos",
+    "software.picture.windows": "Nur für Windows"
   }
 }

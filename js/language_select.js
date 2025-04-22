@@ -1,13 +1,13 @@
 /*
  * Sets and loads the languages
- * @Version 2-0-0
+ * @Version 2-0-1
  * @Author Julian Lamm
  */
 const languageSelect = document.getElementById('language-select')
 let translations = {}
 
 function loadTranslations(lang) {
-  return fetch('translations/translations_' + lang + '.json')
+  return fetch('../translations/translations_' + lang + '.json')
     .then(response => {
       if (!response.ok) {
         throw new Error('Failed to load translations: ' + response.statusText)

@@ -1,9 +1,9 @@
 /* 
  * Coming soon countdown action
- * @Version 1-0-0
+ * @Version 1-0-1
  * @Author Julian Lamm
  */
-const targetDate = new Date("April 20, 2025 21:00:00").getTime()
+const targetDate = new Date('April 20, 2025 21:00:00').getTime()
 startCountdown(targetDate)
 
 function startCountdown(targetDate) {
