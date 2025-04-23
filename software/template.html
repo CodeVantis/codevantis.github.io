@@ -1,0 +1,204 @@
+<!--
+ * Template.html - Software page
+ * @Version 1-0-0
+ * @Author Julian Lamm
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Innovative software and games from CodeVantis. Discover our projects and download them directly for free.">
+  <meta name="keywords"    content="Java, Software, Spiele, Games, Download, CodeVantis, kostenlos, free">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/software_style.css">
+  <link rel="stylesheet" href="../css/scroll_animations.css">
+
+  <script defer type="text/javascript" src="../js/theme_switch.js"></script>
+  <script defer type="text/javascript" src="../js/language_select.js"></script>
+  <script defer type="text/javascript" src="../js/nav_toggle_button.js"></script>
+  <script defer type="text/javascript" src="../js/scroll_animations.js"></script>
+
+  <link href="../rsc/logo.webP" rel="shortcut icon">
+  <title>CodeVantis</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="content">
+      <!-- LOGO -->
+      <a href="../index.html"><img src="../rsc/logo_small.webP" alt="CodeVantis Logo"></a>
+
+      <!-- NAVIGATION -->
+      <nav>
+        <ul>
+          <li><a href="../index.html" data-i18n="nav.overview">Overview</a></li>
+          <li><a href="../blog.html"                          >Blog</a></li>
+          <li><a href="../about.html" data-i18n="nav.about"   >About us</a></li>
+        </ul>
+      </nav>
+
+      <!-- OPTIONS -->
+      <div id="options">
+        <!-- THEME-SWITCH -->
+        <button id="theme-switch" aria-label="Select theme">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M440-760v-160h80v160h-80Zm266 110-55-55 112-115 56 57-113 113Zm54 210v-80h160v80H760ZM440-40v-160h80v160h-80ZM254-652 140-763l57-56 113 113-56 54Zm508 512L651-255l54-54 114 110-57 59ZM40-440v-80h160v80H40Zm157 300-56-57 112-112 29 27 29 28-114 114Zm283-100q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Z"/></svg>
+        </button>
+
+        <!-- LANGUAGE-SELECT -->
+        <select id="language-select" aria-label="Select language">
+          <option value="en">English</option>
+          <option value="de">Deutsch</option>
+        </select>
+      </div>
+
+      <!-- BUTTON TO OPEN THE NAVIGATION BAR (for smaller devices) -->
+      <input type="checkbox" id="nav-toggle-button" aria-label="Navigation menu toggle button (for Smaller devices)">
+      <label for="nav-toggle-button" id="nav-toggle-button-label">
+        <span></span> <!-- lines -->
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+  </header>
+
+  <!-- CONTENT -->
+  <main>
+    <div class="content">
+      <!-- HEADER -->
+      <div class="header img-left reveal fade-bottom">
+        <img src="../rsc/software/template_logo.webP" alt="Software Logo">
+        <h1>Template</h1>
+      </div>
+      
+      <!-- VIDEO -->
+      <div class="video reveal fade-left">
+        <iframe src="https://www.youtube.com/embed/M2FSuCezaXs?si=qNRyjOldrUfml_Sh" title="YouTube video player" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <!-- DETAIL INFORMATION -->
+      <div class="information img-right">
+        <p class="reveal fade-bottom">
+          New design + <b>optimizations</b>!
+        </p>
+        <img class="reveal fade-right" src="../rsc/software/template.webP" alt="Template">
+      </div>
+      
+      <div class="information img-left">
+        <img class="reveal fade-left" src="../rsc/software/template.webP" alt="Template">
+        <p class="reveal fade-bottom">
+          New design + <b>optimizations</b>!
+        </p>
+      </div>
+      
+      <div class="information img-right">
+        <p class="reveal fade-bottom">
+          New design + <b>optimizations</b>!
+        </p>
+        <img class="reveal fade-right" src="../rsc/software/template.webP" alt="Template">
+      </div>
+
+      <!-- VERSION HISTORY -->
+      <div class="versions">
+        <div class="version left">
+          <h1>3</h1>
+          <section class="reveal fade-left">
+            <div class="details">
+              <span class="title">Version X.X.X</span>
+              <span class="date">XX.XX.20XX</span>
+            </div>
+
+            <ul>
+              <li><b>New functions</b>
+                <ul>
+                  <li>Template</li>
+                  <li>Template</li>
+                </ul>
+              </li>
+              <li>Template</li>
+              <li>Template</li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="version right">
+          <h1>2</h1>
+          <section class="reveal fade-right">
+            <div class="details">
+              <span class="title">Version X.X.X</span>
+              <span class="date">XX.XX.20XX</span>
+            </div>
+
+            <ul>
+              <li><b>Template</b></li>
+              <li>Template</li>
+              <li>Template</li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="version left">
+          <h1>1</h1>
+          <section class="reveal fade-left">
+            <div class="details">
+              <span class="title">Version X.X.X</span>
+              <span class="date">XX.XX.20XX</span>
+            </div>
+            
+            <ul>
+              <li><b>Release</b></li>
+            </ul>
+          </section>
+        </div>
+      </div>
+
+      <!-- DOWNLOAD BUTTON -->
+      <a href="https://drive.google.com/uc?export=download&id=" class="button reveal fade-bottom">
+        <div data-i18n="software.download">Download now</div>
+      </a>
+
+      <!-- IMAGE BLOCK -->
+      <div class="pictures">
+        <div class="picture reveal fade-left">
+          <img src="../rsc/free.webP" alt="Completely free">
+          <p data-i18n="software.picture.free">Completely free</p>
+        </div>
+        
+        <div class="picture reveal fade-right">
+          <img src="../rsc/windows.webP" alt="Windows only">
+          <p data-i18n="software.picture.windows">Windows only</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="content">
+      <div class="link">
+        <img src="../rsc/youtube.webP" alt="YouTube icon">
+        <a href="https://www.youtube.com/@CodeVantis" target="_blank">CodeVantis</a>
+      </div>
+      <div class="link">
+        <img src="../rsc/instagram.webP" alt="Instagram icon">
+        <a href="https://www.instagram.com/codevantis" target="_blank">codevantis</a>
+      </div>
+      <div class="link">
+        <img src="../rsc/paragraph.webP" alt="Imprint icon">
+        <a href="../imprint.html" data-i18n="footer.imprint">Imprint</a>
+      </div>
+      <div class="link">
+        <img src="../rsc/chain.webP" alt="Credits icon">
+        <a href="../credits.html">Credits</a>
+      </div>
+      <div class="link">
+        <img src="../rsc/question_mark.webP" alt="FAQ icon">
+        <a href="../faq.html">FAQ</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
