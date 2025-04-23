@@ -1,6 +1,6 @@
 /*
  * Style of a software page
- * @Version 1-0-0
+ * @Version 1-0-1
  * @Author Julian Lamm
  */
 .content p {
@@ -37,6 +37,7 @@
   height: 315px;
 
   border-radius: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
 }
 
 /* DETAIL INFORMATION */
@@ -44,6 +45,7 @@
   width: 700px;
 
   word-wrap: break-word;
+  word-break: break-all;
 }
 
 .content .information img {
@@ -121,12 +123,13 @@
 
 .content .versions .version section {
   padding: 10px;
-  width: 45%;
+  width: 46%;
   border-radius: 10px;
   background: var(--base-color3);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
 
   word-wrap: break-word;
+  word-break: break-all;
 }
 
 .content .versions .version section .details {
@@ -174,7 +177,7 @@
 }
 
 .content .button:hover {
-  letter-spacing: 1px;
+  border-radius: 50% 15px;
 }
 
 /* IMAGE BLOCK */
@@ -292,6 +295,6 @@
   }
 
   .content .button {
-    font-size: 18px;
+    font-size: 17px;
   }
 }

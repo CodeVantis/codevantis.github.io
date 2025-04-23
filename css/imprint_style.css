@@ -1,11 +1,12 @@
 /*
  * Style for the imprint
- * @Version 1-0-1
+ * @Version 1-0-2
  * @Author Julian Lamm
  */
 h2 {
   margin-bottom: 9px;
   word-wrap: break-word;
+  word-break: break-all;
 }
 
 p {

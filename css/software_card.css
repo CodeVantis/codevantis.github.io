@@ -1,6 +1,6 @@
 /*
  * Style for a Software card
- * @Version 2-0-1
+ * @Version 2-0-2
  * @Author Julian Lamm
  */
 .card {
@@ -43,12 +43,13 @@
   vertical-align: middle;
 
   word-wrap: break-word;
+  word-break: break-all;
 }
 
 .card .badges {
   display: flex;
   flex-wrap: wrap;
-  margin: 15px 10px;
+  margin: 15px 10px 5px;
 }
 
 .card .badges .badge {
@@ -59,16 +60,26 @@
 
   text-align: center;
 
-  width: 100px;
-  padding: 5px;
-  margin-right: 15px;
+  width: fit-content;
+  padding: 5px 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.card .badges .badge.new {
+  background-color: var(--light-blue);
+  color: #2f3557;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .card .description {
   min-height: 160px;
   padding: 0 10px;
 
+  text-align: left;
   word-wrap: break-word;
+  word-break: break-all;
 }
 
 .card .footer {

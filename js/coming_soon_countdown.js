@@ -1,6 +1,6 @@
 /* 
  * Coming soon countdown action
- * @Version 1-0-1
+ * @Version 1-0-2
  * @Author Julian Lamm
  */
 const targetDate = new Date('April 20, 2025 21:00:00').getTime()
@@ -34,6 +34,6 @@ function startCountdown(targetDate) {
     document.getElementById('second').innerText = s
   }
 
-  updateCountdown()
   const interval = setInterval(updateCountdown, 1000)
+  updateCountdown()
 }

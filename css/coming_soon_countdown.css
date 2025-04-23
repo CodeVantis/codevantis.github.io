@@ -1,6 +1,6 @@
 /*
  * Style for the coming soon countdown on the blog-page
- * @Version 1-0-0
+ * @Version 1-0-1
  * @Author Julian Lamm
  */
 .countdown {
@@ -17,6 +17,8 @@
 .countdown .blog-content h1 {
   text-transform: uppercase;
   word-wrap: break-word;
+  word-break: break-all;
+  
   font-size: 40px;
 }
 
@@ -24,6 +26,7 @@
 .countdown .blog-content h2 {
   text-transform: uppercase;
   word-wrap: break-word;
+  word-break: break-all;
   font-size: 30px;
 }
 
