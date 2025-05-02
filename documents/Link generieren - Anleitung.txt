@@ -1,8 +1,0 @@
-1) Dokument in Google Drive hochladen
-2) Bei dem Dokument die drei Punkte anklicken
-3) "Freigeben" -> "Freigeben"
-4) Bei "Allgemeiner Zugriff" "Jeder, der über den Link verfügt" auswählen
-5) Link kopieren
-6) https://sites.google.com/site/gdocs2direct/ öffnen und den Link einfügen
-7) "Create Direct Link"
-8) Link z.B. in HTML verwenden
